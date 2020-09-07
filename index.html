@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <!--CDN FONT AWESOME-->
 </head>
+
 <body>
-    <div class="dropdown">
-        <button class="boutonmenuprincipal">Menu Principal</button>
-        <div class="dropdown-child">
-        <a href="http://www.votresite.com/page1.html">Menu enfant 1</a>
-        <a href="http://www.votresite.com.com/page2.html">Menu enfant 2</a>
-        <a href="http://www.votresite.com.com/page3.html">Menu enfant 3</a>
-        <a href="http://www.votresite.com.com/page4.html">Menu enfant 4</a>
-        <a href="http://www.votresite.com.com/page5.html">Menu enfant 5</a>
+
+    <nav class="navbar">
+        <img src="src/Logo-Montreuil-Final.jpg" alt="">
+        <div id="dropdown">
+            <div class="nav-btn">
+                <i class="fas fa-bars"></i>
+              </div>
+           
+            <div class="dropdown-child">
+                <ul class="main-ul">
+                    <li class="underline dropdown"><a href="./index.html">Le château</a>
+                      <ul>
+                        <li class="drop-1"><a href="./index.html#gallery">Gallerie</a> </li>
+                        <li class="drop-1"><a href="./index.html#castle-history">Histoire</a> </li>
+                      </ul>
+                    </li>
+                    <li class="underline dropdown"><a href="./bedrooms.html">Les Chambres</a>
+                      <ul>
+                        <li class="drop-2"><a href="./bedrooms.html#bed-king">Du Roi</a> </li>
+                        <li class="drop-2"><a href="./bedrooms.html#bed-ladyship">De la Contesse</a> </li>
+                        <li class="drop-2"><a href="./bedrooms.html#bed-empire">Empire</a> </li>
+                        <li class="drop-2"><a href="./bedrooms.html#bed-tapestry">En Jouy</a> </li>
+                        <li class="drop-2"><a href="./bedrooms.html#bed-alcove">Alcove</a> </li>
+                      </ul>
+          
+          
+                    </li>
+                    <li class="underline dropdown"><a href="./about-us.html">A notre sujet</a>
+                      <ul>
+                        <li class="drop-3" ><a href="./about-us.html#passion">Une passion</a> </li>
+                        <li class="drop-3" ><a href="./about-us.html#storytelling">Une histoire</a> </li>
+                        <li class="drop-3"  ><a href="./about-us.html#commitments">Les travaux</a> </li>
+                      </ul>
+          
+                    
+                    <li class="underline dropdown"><a href="./near.html">Détentes</a>
+                      <ul>
+                        <li class="drop-4" ><a href="./near.html#nature">Nature</a></li>
+                        <li class="drop-4"> <a href="./near.html#culture">Culture</a> </li>
+                        <li class="drop-4"><a href="./near.html#address">Adresses</a> </li>
+                      </ul>
+                    </li>
+                    <li><a href="./reservation.html">Réservation</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                  </ul>
+            </div>
         </div>
-        </div>
+    </nav>
+
 </body>
+
 </html>
