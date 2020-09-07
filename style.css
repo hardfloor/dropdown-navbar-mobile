@@ -5,59 +5,59 @@
           box-sizing: border-box;
 }
 
-.navbar {
+.navbar-mobile {
   width: 100vw;
   height: 100px;
   background-color: #ff4444;
 }
 
-.navbar img {
+.navbar-mobile img {
   float: left;
   margin: 10px;
 }
 
-.navbar #dropdown {
+.navbar-mobile #dropdown {
   float: right;
   /* position: relative;
     
     display: inline-block; */
 }
 
-.navbar #dropdown .nav-btn {
+.navbar-mobile #dropdown .nav-btn {
   color: #000;
   font-size: 30px;
   margin: 20px;
 }
 
-.navbar #dropdown .nav-btn:hover {
+.navbar-mobile #dropdown .nav-btn:hover {
   background-color: #ff4444;
 }
 
-.navbar #dropdown .dropdown-child {
+.navbar-mobile #dropdown .dropdown-child {
   display: none;
   background-color: #f28c8c;
   min-width: 50px;
 }
 
-.navbar #dropdown .dropdown-child .underline {
+.navbar-mobile #dropdown .dropdown-child .underline {
   color: white;
   padding: 20px;
   text-decoration: none;
   display: block;
 }
 
-.navbar #dropdown .dropdown-child .underline .drop-1,
-.navbar #dropdown .dropdown-child .underline .drop-2,
-.navbar #dropdown .dropdown-child .underline .drop-3,
-.navbar #dropdown .dropdown-child .underline .drop-4 {
+.navbar-mobile #dropdown .dropdown-child .underline .drop-1,
+.navbar-mobile #dropdown .dropdown-child .underline .drop-2,
+.navbar-mobile #dropdown .dropdown-child .underline .drop-3,
+.navbar-mobile #dropdown .dropdown-child .underline .drop-4 {
   display: none;
 }
 
-.navbar #dropdown .dropdown-child .underline:hover .drop-1, .navbar #dropdown .dropdown-child .underline:hover .drop-2, .navbar #dropdown .dropdown-child .underline:hover .drop-3, .navbar #dropdown .dropdown-child .underline:hover .drop-4 {
+.navbar-mobile #dropdown .dropdown-child .underline:hover .drop-1, .navbar-mobile #dropdown .dropdown-child .underline:hover .drop-2, .navbar-mobile #dropdown .dropdown-child .underline:hover .drop-3, .navbar-mobile #dropdown .dropdown-child .underline:hover .drop-4 {
   display: block;
 }
 
-.navbar #dropdown:hover .dropdown-child {
+.navbar-mobile #dropdown:hover .dropdown-child {
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
